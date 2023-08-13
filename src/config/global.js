@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Selección técnica huevos de gallina',
+    descripcionCurso:
+      'La selección del huevo es la actividad que permite evaluar a las granjas y compañías avícolas los manejos y procedimientos que se ejecutan a diario para ofrecer calidad en su producción al consumidor final. Por ello, es necesario conocer las condiciones de infraestructura y disposición de equipos para llevar a cabo la actividad a partir de la normatividad vigente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -31,13 +22,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Limpieza y desinfección de áreas de clasificación de huevo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Áreas de la clasificadora, máquinas y equipos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Desinfectantes y dosificación',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Alistamiento y planeación de labores de la clasificadora',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,14 +46,32 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Recepción y selección del huevo comercia',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Recolección del huevo, almacenamiento y transporte a la clasificadora',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipos de huevo según su tamaño y peso',
+            hash: 't_1_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Proceso de clasificación',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo:
+              'Nombre de bandejas para el almacenamiento del huevo según tamaño',
+            hash: 't_2_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -97,32 +116,135 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Áreas de clasificadora, máquinas y equipos.',
+      referencia:
+        'Italcol. (2019). ¿Cuáles son los requisitos de infraestructura para mi granja avícola? [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=qAnu7mdl3Ig',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Áreas de clasificadora, máquinas y equipos.',
+      referencia:
+        'YAMASA Industria de Máquinas. (2021). Clasificadora de Huevos CHSL-180.000 con empacadoras C-3.0 [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=LsS_vYpx3dM',
+    },
+    {
+      tema: 'Áreas de clasificadora, máquinas y equipos.',
+      referencia:
+        'Clasificadora de Huevos Yemita. (2015). Clasificadora de Huevos Yemita (Video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=TH7n37Lo-nw',
+    },
+    {
+      tema: 'Elementos de seguridad en el trabajo.',
+      referencia:
+        'Entorno saludable. (2018). Equipos de protección personal básicos para la industria alimentaria.',
+      tipo: 'Artículo',
+      link:
+        'https://entornosaludable.com/15/05/2018/equipos-de-proteccion-personal-basicos-para-la-industria-alimentaria/',
+    },
+    {
+      tema: 'Tipos de huevo según su tamaño y peso.',
+      referencia: 'docplayer.es. (2011). Norma Técnica Colombiana NTC1240.',
+      tipo: 'Norma',
+      link: 'https://docplayer.es/54870550-Norma-tecnica-colombiana-1240.html',
+    },
+    {
+      tema: 'Proceso de clasificación.',
+      referencia:
+        'Avícola Toscana. (2020). ¡Recolección y clasificación! (Video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=3f5VBhI8JCM',
+    },
+    {
+      tema: 'Proceso de clasificación.',
+      referencia:
+        'Soriano, M. (2020). Huevos sucios: causas y soluciones. Veterinaria digital.',
+      tipo: 'Artículo',
+      link:
+        'https://www.veterinariadigital.com/articulos/huevos-sucios-causas-y-soluciones/',
+    },
+    {
+      tema: 'Proceso de clasificación.',
+      referencia:
+        'La Finca de Hoy. (2019). Requisitos para certificar una granja avícola como biosegura (Video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=bheJVrL4Njw',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'BPAV',
+      significado: 'buenas prácticas avícolas.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'BPM',
+      significado: 'buenas prácticas de manufactura.',
+    },
+    {
+      termino: 'Concentración',
+      significado: 'cantidad de soluto o principio activo de una sustancia.',
+    },
+    {
+      termino: 'Dosificación',
+      significado:
+        'es el acto y el efecto de determinar la cantidad de uso de una sustancia.',
+    },
+    {
+      termino: 'Inocuidad',
+      significado:
+        'es la garantía de que los alimentos están libre de patógenos o microorganismos.',
+    },
+    {
+      termino: 'Lejía',
+      significado: 'término que se refiere al hipoclorito.',
+    },
+    {
+      termino: 'Microorganismo',
+      significado:
+        'organismo que solo se puede ver bajo el microscopio; incluyen virus, bacterias, protozoos, algas, hongos.',
+    },
+    {
+      termino: 'Ovoscopio',
+      significado:
+        'equipo que permite observar el huevo internamente para evaluar su calidad.',
+    },
+    {
+      termino: 'pH',
+      significado: 'medida del grado de acidez o alcalinidad de una sustancia',
+    },
+    {
+      termino: 'Viricida',
+      significado: 'es toda sustancia capaz de acabar con un virus.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Ángel, J. (2016). Elaboración de producto a base de huevo (ovoproducto) tv agro. (Video). YouTube.',
+      link: 'https://www.youtube.com/watch?v=efCxBP3LHGM',
+    },
+    {
+      referencia: 'Norma técnica colombiana NTC1240 seguridad en el trabajo.',
+      link: 'http://avicol.co/descargas2/NormatecnicacolombianaNTC.pdf',
+    },
+    {
+      referencia:
+        'Proyecto Cleaning and Desinfection Procedures in Food and Beverage Industries. (2015).',
+      link:
+        'https://higieneambiental.com/higiene-alimentaria/limpieza-y-desinfeccion-en-la-industria-alimentaria-cual-es-la-diferencia',
+    },
+    {
+      referencia:
+        'Resolución 3651 del 2014 (Instituto Colombiano Agropecuario – ICA) Por medio de la cual se establecen los requisitos para la certificación de granjas avícolas bioseguras de postura y/o levante y se dictan otras disposiciones',
+      link:
+        'https://www.ica.gov.co/getattachment/b8cb4efd-a1b4-409e-a11d-c81b91f59025/2014R3651.aspx',
+    },
+    {
+      referencia: 'Soriano. (2020). Huevos sucios: causas y soluciones',
+      link:
+        'https://www.veterinariadigital.com/articulos/huevos-sucios-causas-y-soluciones/',
     },
   ],
   creditos: [
@@ -131,13 +253,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -145,9 +267,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Ángela Rocío Sánchez Ruiz',
+          cargo: 'Experto Temático',
+          centro: 'Centro de Electricidad, Electrónica y Telecomunicaciones',
+        },
+        {
+          nombre: 'Miroslava González H.',
+          cargo: 'Diseñador y Evaluador Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Juan Gilberto Giraldo Cortés',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Álix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñones',
+          cargo: 'Asesora Metodológica',
+          centro: 'Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Revisión y Corrección de Estilo',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
         },
       ],
     },
@@ -155,19 +308,29 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'José Jaime Luis Tang',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Animador y Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Sebastián Trujillo Afanador',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -175,14 +338,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Gilberto Naranjo Farfán',
+          cargo: 'Validación de Contenidos Accesibles',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
