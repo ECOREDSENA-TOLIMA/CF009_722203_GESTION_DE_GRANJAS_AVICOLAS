@@ -11,13 +11,13 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 Clasificación del huevo comercial.
-        p.mb-4 #[b Objetivo:] aplicar los conocimientos adquiridos en el componente formativo Selección técnica huevos de gallina.
+        p.mb-4 #[b Objetivo:] aplicar los conocimientos adquiridos en el componente formativo Selección técnica de huevos de gallina
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Selección múltiple
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades_CF09/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 

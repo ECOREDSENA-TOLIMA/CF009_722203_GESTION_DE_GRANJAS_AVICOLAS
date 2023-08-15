@@ -1,1 +1,1 @@
-module.exports = 'Selección técnica huevos de gallina '
+module.exports = 'Selección técnica de huevos de gallina'

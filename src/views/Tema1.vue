@@ -16,28 +16,28 @@
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           LineaTiempoD.color-acento-contenido
             .row(numero="1" titulo="")
-              .col-md-4
+              .col-md-4.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema1/img-2.svg', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 p.text-small La limpieza y la desinfección son procesos distintos y complementarios, puesto que, antes de aplicar una solución desinfectante, las superficies deben ser limpiadas correctamente con detergentes para permitir que el desinfectante pueda entrar en contacto directo con los microorganismos patógenos específicos, ya que la presencia de materia orgánica reduce significativamente la acción de los desinfectantes.
 
             .row(numero="2" titulo="")
-              .col-md-4
+              .col-md-4.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema1/img-3.svg', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 p.text-small El objetivo de los procesos y prácticas de limpieza es eliminar los diferentes tipos de suciedad en equipos y superficies del establecimiento, ya sea restos de alimentos, grasa, polvo, suciedad, productos de desecho, entre otros. 
 
             .row(numero="3" titulo="")
-              .col-md-4
+              .col-md-4.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema1/img-4.svg', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 p.text-small La desinfección, por su parte consiste en la eliminación de los microorganismos de superficies y equipos hasta un nivel adecuado para garantizar la inocuidad de los alimentos y evitar su alteración. Así pues, el objetivo de la desinfección es eliminar todos los microorganismos patógenos y reducir la presencia de microorganismos no patógenos hasta niveles que no puedan alterar la calidad y vida comercial de los productos. 
 
             .row(numero="4" titulo="")
-              .col-md-4
+              .col-md-4.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema1/img-5.svg', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
@@ -81,56 +81,78 @@
           figure
             img(src='@/assets/curso/temas/tema1/img-6.svg', alt='Texto que describa la imagen')
 
-        .tarjeta.color-acento-botones.p-3(x="32%" y="2.5%" numero="1")
+        .tarjeta.color-acento-botones1.p-3(x="32%" y="2.5%" numero="1")
           .h5.mb-2.text-center Zona de recepción o descargue del producto
           p Área donde se recibe el huevo recogido del galpón o transportado desde la granja.
 
-        .tarjeta.color-acento-botones.p-3(x="16%" y="2.5%" numero="2")
+        .tarjeta.color-acento-botones1.p-3(x="16%" y="2.5%" numero="2")
           .h5.mb-2.text-center Bodega de recibo e identificación del producto almacenado
           p Área donde se almacena el huevo recibido e identificando la granja, galpón, fecha de postura, número de lote de los animales.
 
-        .tarjeta.color-acento-botones.p-3(x="5%" y="18%" numero="3")
+        .tarjeta.color-acento-botones1.p-3(x="5%" y="18%" numero="3")
           .h5.mb-2.text-center Zona de recepción o descargue del producto
           p Área donde se recibe el huevo recogido del galpón o transportado desde la granja.
 
-        .tarjeta.color-acento-botones.p-3(x="25%" y="25%" numero="4")
+        .tarjeta.color-acento-botones1.p-3(x="25%" y="25%" numero="4")
           .h5.mb-2.text-center Área de equipo de clasificadora
           p Es la zona donde se encuentran la máquina encargada de clasificar bajo la inspección de operarios.
 
-        .tarjeta.color-acento-botones.p-3(x="43%" y="79.5%" numero="5")
+        .tarjeta.color-acento-botones1.p-3(x="43%" y="79.5%" numero="5")
           .h5.mb-2.text-center Transportador
           p Mecanismo de rodillos que transporta el huevo por toda la máquina clasificadora hasta las bandas de selección.
 
-        .tarjeta.color-acento-botones.p-3(x="50.5%" y="79.5%" numero="6")
+        .tarjeta.color-acento-botones1.p-3(x="50.5%" y="79.5%" numero="6")
           .h5.mb-2.text-center Ovoscopio
           p Equipo utilizado para observar el interior del huevo mediante el uso de la luz, para determinar que no haya presencia de sangre, fisuras en la cáscara.
 
-        .tarjeta.color-acento-botones.p-3(x="68%" y="91%" numero="7")
+        .tarjeta.color-acento-botones1.p-3(x="68%" y="91%" numero="7")
           .h5.mb-2.text-center Zona de desechos
           p Lugar donde se dispone el huevo no viable (roto o picado) separando cascara de la clara y la yema. Posterior a ello se refrigera la yema y clara para enviar material a proceso de liofilización.
 
-        .tarjeta.color-acento-botones.p-3(x="66.5%" y="9%" numero="8")
+        .tarjeta.color-acento-botones1.p-3(x="66.5%" y="9%" numero="8")
           .h5.mb-2.text-center Bandas clasificadoras
           p Mecanismo que pesa el huevo y lo clasifica para dar sus categorías de C, B, A, AA, AAA, 4A o Jumbo. En este caso existen dos tipos de transportador: industriales y automatizados. En las automatizadas, el transportador de esta clase se encarga de llevar los huevos a las cucharas o al pesaje interno de la clasificadora para determinar el tipo de huevo según su peso para luego trasladarlo a la banda correspondiente y el operario llevarlo a bandeja o al empaque.
 
-        .tarjeta.color-acento-botones.p-3(x="53%" y="9%" numero="9")
+        .tarjeta.color-acento-botones1.p-3(x="53%" y="9%" numero="9")
           .h5.mb-2.text-center Banda de empaque
           p Esta banda es la encargada de llevar el huevo clasificado para el procedimiento de empaque y embalaje. Adicional se marca el huevo o la bandeja con los datos correspondiente de la postura.
 
-        .tarjeta.color-acento-botones.p-3(x="85%" y="1%" numero="10")
+        .tarjeta.color-acento-botones1.p-3(x="85%" y="1%" numero="10")
           .h5.mb-2.text-center Bodega de almacenamiento de huevo clasificado, refrigeración yemas-claras y despacho
-          p Es la zona de la unidad de clasificación de producto donde se encuentra listo el huevo a comercializar en sus respectivas bandejas colocadas en estanterías o estibas en torres de bandejas dependiendo la calidad de la cascara e identificada por fecha de postura y selección para una correcta rotación. Se encuentra punto de refrigeración donde se mide el PH de la yema y la clara para poder enviar a proceso de liofilización.
+          p Es la zona de la unidad de clasificación de producto donde se encuentra listo el huevo a comercializar en sus respectivas bandejas, colocadas en estanterías o estibas en torres de bandejas dependiendo la calidad de la cáscara e identificada por fecha de postura y selección para una correcta rotación. Se encuentra punto de refrigeración donde se mide el PH de la yema y la clara para poder enviar a proceso de liofilización.
 
-        .tarjeta.color-acento-botones.p-3(x="100%" y="97%" numero="11")
+        .tarjeta.color-acento-botones1.p-3(x="100%" y="97%" numero="11")
           .h5.mb-2.text-center Cargue
           p Zona dispuesta para embarcar los vehículos encargados de distribución y comercialización del huevo.
 
     p.mb-5 En las siguientes imágenes se muestran algunas de las secciones más importantes del área de clasificación del huevo (Ver figuras 2, 3, 4 y 5):
 
-    .col-xl-10.mx-auto.mb-5
-      img.d-md-block(src="@/assets/curso/temas/tema1/img-7.svg" data-aos="fade-left")
+    .row.justify-content-center 
+      .col-12.col-lg-10.col-md-11
+        .row.mb-5
+          .col-12.col-md-6.mb-5
+            .titulo-sexto.color-primario
+              p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Ovoscopio Industrial</i>
+            img.mb-3(src='@/assets/curso/temas/tema2/img-01.png')
+            figcaption Nota. Ovoscopio, modelo: 202A. Capacidad: 10000 huevos/hora. Tomada de ZENYER. (s.f.)
+          .col-12.col-md-6
+            .titulo-sexto.color-primario
+              p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Banda clasificadora manual de huevos </i>
+            img.mb-3(src='@/assets/curso/temas/tema2/img-02.png')
+            figcaption Nota. Banda clasificadora manual moba Type 88 para capacidad de 4500 huevos por hora. JM. Alcantara. Tomada de PROultry. (s.f.)
+        .row.mb-5
+          .col-12.col-md-6.mb-5
+            .titulo-sexto.color-primario
+              p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Banda clasificatoria automatizada de huevos</i>
+            img.mb-3(src='@/assets/curso/temas/tema2/img-03.png')
+            figcaption Nota. Banda clasificatoria de huevos para capacidad de 3500 a 4500 huevos por hora. Tomada de AgroLibre. (s.f.)
+          .col-12.col-md-6
+            .titulo-sexto.color-primario
+              p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Banda clasificadora manual de huevos</i>
+            img.mb-3(src='@/assets/curso/temas/tema2/img-04.png')
+            figcaption Nota. Banda clasificadora manual moba Type 68 para capacidad de 3000 huevos por hora. JM. Alcantara. Tomada de PROultry. (s.f.)
 
-    p.mb-5 Para ampliar la información, se invita a ver el video Clasificadora de Huevos Yemita, que se encuentra en el material complementario, en el cual se puede apreciar el funcionamiento de una máquina clasificadora de huevo.
+    p.mb-5 Para ampliar la información, se invita a ver el video clasificadora de huevos yemita, que se encuentra en el material complementario, en el cual se puede apreciar el funcionamiento de una máquina clasificadora de huevo.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 1.2 Desinfectantes y dosificación
@@ -172,22 +194,22 @@
     .col-sm.mb-5.mb-sm-0
       ol.lista-ol
         li 
-          span.text-bold a. 
+          span.text-bold a) 
           | Bodega de almacenamiento de huevo seleccionado.
         li 
-          span.text-bold b. 
+          span.text-bold b) 
           | Pisos y equipo de bandas de empaque y embalaje.
         li 
-          span.text-bold c. 
+          span.text-bold c) 
           | Pisos y bandas de selección.
         li 
-          span.text-bold d. 
+          span.text-bold d) 
           | Pisos y ovoscopio.
         li 
-          span.text-bold e. 
+          span.text-bold e) 
           | Pisos y transportador.
         li 
-          span.text-bold f. 
+          span.text-bold f) 
           | Bodega de recepción de huevo y descargue.
 
     p.mb-5 Lo anterior, con el fin de lograr que toda la limpieza y desinfección vaya desde una zona limpia y controlada hacia una zona sucia y de recibo para que no se quede en la instalación la contaminación. 
@@ -238,7 +260,7 @@
             h3 Exámenes médicos
             p El trabajador o manipulador del huevo, antes de ser vinculado a su labor debe pasar por exámenes médicos, el cual se repetirá como mínimo cada año o cuando este requiera, por presentar periodos de incapacidad para prevenir secuelas y una contaminación del producto o del resto de compañeros del área.
 
-          .col-md-6
+          .col-md-6.px-3
             figure
               img(src='@/assets/curso/temas/tema1/img-13.png', alt='Texto que describa la imagen')
 
@@ -246,7 +268,7 @@
           .col-md-6.mb-4.mb-md-0
             p Se debe verificar periódicamente a los operarios de la clasificadora, si presentan afecciones en la piel a causa de la manipulación de desinfectantes, detergentes u otros productos químicos que afecten la salud; revisando especialmente lesiones en las manos, brazos y la cara con el fin de reubicarlos e investigar las causas para evitar contaminación del huevo.
 
-          .col-md-6
+          .col-md-6.px-3
             figure
               img(src='@/assets/curso/temas/tema1/img-14.png', alt='Texto que describa la imagen')
 
@@ -254,7 +276,7 @@
           .col-md-6.mb-4.mb-md-0
             p Se debe contar en el área de clasificadora con un botiquín de primeros auxilios, para dar respuesta a una emergencia y un grupo de brigadistas capacitados que respondan a una necesidad de traslado de los lesionados.
 
-          .col-md-6
+          .col-md-6.px-3
             figure
               img(src='@/assets/curso/temas/tema1/img-15.png', alt='Texto que describa la imagen')
 
@@ -262,7 +284,7 @@
           .col-md-6.mb-4.mb-md-0
             p El operario de una clasificadora que llegue a trabajar y presente enfermedad gastrointestinal, respiratoria o heridas, tiene la obligación de informar a su jefe inmediato de su condición para evitar que trabaje y haya la posibilidad de contaminar el huevo.
 
-          .col-md-6
+          .col-md-6.px-3
             figure
               img(src='@/assets/curso/temas/tema1/img-16.png', alt='Texto que describa la imagen')
 
@@ -270,13 +292,13 @@
           .col-md-6.mb-4.mb-md-0
             p Es necesario el manejo de señalización o avisos, que indique al personal el cumplimiento de las diferentes prácticas de salubridad antes, durante, y después del manejo del producto.
 
-          .col-md-6
+          .col-md-6.px-3
             figure
               img(src='@/assets/curso/temas/tema1/img-17.png', alt='Texto que describa la imagen')
 
     p.mb-5 El grupo de operarios de la clasificadora deben cumplir con las siguientes prácticas y medidas de protección, ver figura 8:      
     
-    .row.justify-content-center.m-5
+    .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-primario(data-aos="fade-right")
           h5 Figura 8.
@@ -295,9 +317,9 @@
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema1/img-19.svg', alt='').img125
             .col-lg
-              p.my-3(style="position:relative") <strong>Utilizar la dotación correspondiente al área y en su mayoría de color blanco.</strong> 
-              ul.lista-ul.mb-3
-                li 
+              p.my-3.parrafo_1(style="position:relative") <strong>Utilizar la dotación correspondiente al área y en su mayoría de color blanco</strong> 
+              ul.lista-ul.mb-3.parrafo_1
+                li
                   i.lista-ul__vineta
                   | Cofia o gorro
                 li 
@@ -318,10 +340,10 @@
                 li  
                   i.lista-ul__vineta
                   | Gafas industriales
-              p Si se requiere para labores de limpieza
+              p.parrafo_1 Si se requiere para labores de limpieza
           .row
             .col-lg
-              p.my-5(style="position:relative") Lavarse las manos con agua y jabón con frecuencia en el proceso para luego desinfectarlas para minimizar el riesgo de contaminación de la zona de trabajo y del producto.
+              p.my-5(style="position:relative") Lavarse las manos con agua y jabón con frecuencia en el proceso para luego desinfectarlas y minimizar el riesgo de contaminación de la zona de trabajo y del producto.
    
             .col-auto
               figure(data-aos="zoom-in")
@@ -345,9 +367,9 @@
           .row
             .col-auto
               figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema1/img-22.svg', alt='').img125
+                img(src='@/assets/curso/temas/tema1/img-23.svg', alt='').img125
             .col-lg
-              p.my-5(style="position:relative") En las instalaciones de la clasificadora se debe contar con espacios exclusivos para el consumo de alimentos y bebidas ya que en área de clasificación no se debe consumir alimento ya que se puede generar una contaminación cruzada.
+              p.my-5(style="position:relative") En las instalaciones de la clasificadora se debe contar con espacios exclusivos para el consumo de alimentos y bebidas, ya que en área de clasificación no se debe consumir alimento debido a que se puede generar una contaminación cruzada.
 
     p Para otros aspectos sobre la disposición de elementos de seguridad en la operación de limpieza y desinfección en el área de clasificación del huevo, se invita a ver el enlace Equipo de protección personal básico para la industria alimentaria, que se encuentra en el material complementario.
 

@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Selección técnica huevos de gallina',
+    componenteFormativo: 'Selección técnica de huevos de gallina',
     descripcionCurso:
-      'La selección del huevo es la actividad que permite evaluar a las granjas y compañías avícolas los manejos y procedimientos que se ejecutan a diario para ofrecer calidad en su producción al consumidor final. Por ello, es necesario conocer las condiciones de infraestructura y disposición de equipos para llevar a cabo la actividad a partir de la normatividad vigente.',
+      'La selección del huevo es la actividad que permite evaluar a las granjas y compañías avícolas, los manejos y procedimientos que se ejecutan a diario para ofrecer calidad en su producción al consumidor final. Por ello, es necesario conocer las condiciones de infraestructura y disposición de equipos para llevar a cabo la actividad a partir de la normatividad vigente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
@@ -46,7 +46,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Recepción y selección del huevo comercia',
+        titulo: 'Recepción y selección del huevo comercial',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -226,8 +226,9 @@ export default {
       link: 'https://www.youtube.com/watch?v=efCxBP3LHGM',
     },
     {
-      referencia: 'Norma técnica colombiana NTC1240 seguridad en el trabajo.',
-      link: 'http://avicol.co/descargas2/NormatecnicacolombianaNTC.pdf',
+      referencia:
+        'Norma técnica colombiana NTC1240 Industrial Alimentaria. Huevos de Gallina Frescos para Consumo.',
+      link: 'https://www.huila.gov.co/documentos/1620/huevo/',
     },
     {
       referencia:
@@ -237,7 +238,7 @@ export default {
     },
     {
       referencia:
-        'Resolución 3651 del 2014 (Instituto Colombiano Agropecuario – ICA) Por medio de la cual se establecen los requisitos para la certificación de granjas avícolas bioseguras de postura y/o levante y se dictan otras disposiciones',
+        'Resolución 3651 del 2014 (Instituto Colombiano Agropecuario - ICA) Por medio de la cual se establecen los requisitos para la certificación de granjas avícolas bioseguras de postura y/o levante y se dictan otras disposiciones',
       link:
         'https://www.ica.gov.co/getattachment/b8cb4efd-a1b4-409e-a11d-c81b91f59025/2014R3651.aspx',
     },

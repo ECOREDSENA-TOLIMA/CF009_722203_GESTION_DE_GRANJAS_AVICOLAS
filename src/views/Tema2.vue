@@ -12,8 +12,53 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 2.1 Recolección del huevo, almacenamiento y transporte a la clasificadora
 
-    p.mb-5 A continuación, se presenta el procedimiento correspondiente: 
+    p Se inicia el proceso con la recolección del huevo, esta actividad se realiza en el galpón teniendo en cuenta todas las medidas de bioseguridad y se pueden encontrar varios métodos que se utilizan actualmente, entre ellos están:
     
+    .row.justify-content-center 
+      .col-12.col-lg-10.col-md-11
+        .row.mb-5
+          .col-12.col-md-6
+            h2.mt-3 a) Recolección manual en piso
+            p En ocasiones la granja cuenta con el área de clasificación manual o en grandes compañías podemos encontrar su centro de clasificación fuera de la granja, cumpliendo con todos los estándares de BPAv según Resolución 3651 del 2014.
+          .col-12.col-md-6
+            .titulo-sexto.color-primario
+              p.titulo.pb-0.mb-0 <b>Figura 9. </b> <i>Recolección manual de huevo</i>
+            img(src='@/assets/curso/temas/tema2/imagen-3.svg')
+        .row.mb-5
+          .col-12.col-md-6
+            h2.mt-3 b) Recolección automática en jaula
+            p En los galpones de jaulas en ambientes automáticos, su misma sistematización hace llegar los huevos de cada jaula por medio de bandas transportadoras a la zona de clasificación. En este caso, el porcentaje de huevo sucio por las heces disminuye a comparación de la recolección en piso.
+          .col-12.col-md-6
+            .titulo-sexto.color-primario
+              p.titulo.pb-0.mb-0 <b>Figura 10. </b> <i>Bandas transportadoras de huevo</i>
+            img(src='@/assets/curso/temas/tema2/imagen-4.svg')
+        .row.mb-5
+          .col-12.col-md-6
+            h2.mt-3 c) Recolección en jaula californiana
+            p En los galpones de jaula california se realiza recogida del huevo de forma manual, para luego limpiarlos y direccionarlos a la clasificadora. Esta jaula también es llamada piramidal; es una alternativa de explotación para el aprovechamiento de espacio y aumento de densidades a nivel tradicional sin ninguna automatización.
+          .col-12.col-md-6
+            .titulo-sexto.color-primario
+              p.titulo.pb-0.mb-0 <b>Figura 11. </b> <i>Jaulas californianas</i>
+            img(src='@/assets/curso/temas/tema2/imagen-5.svg')
+    
+    p En muchas granjas se tiene la práctica de limpiar o retirar las heces fecales de las aves del huevo con la misma clara de un huevo roto, pero esto solamente hace que disminuyan los días de frescura, ya que se bloquea el intercambio gaseoso que se realiza por medio de los poros de la cascara del huevo.
+    p Lo más recomendable es con una esponja o fibra de metal para conservar las propiedades organolépticas del huevo para el consumo humano.
+    p.mb-5 A continuación, se realiza el almacenamiento del huevo recolectado, este se debe apilar en bandejas o cartones de huevo dependiendo de la edad de las aves y la calidad de la cascara para no sufrir deterioro en el producto. Las bandejas de huevo por bioseguridad no pueden estar en contacto con el piso, deben colocarse en estibas o estanterías rotuladas para saber la procedencia del huevo y realizar trazabilidad en el área de la clasificadora. En la siguiente figura se puede ver la forma correcta de apilar las bandejas de huevos en una estantería.
+
+    .col-xl-10.mx-auto.mb-5
+      .titulo-sexto.color-primario(data-aos="fade-right")
+        h5 Figura 12.
+        span <em>Estantería de almacenamiento del huevo</em>
+      img.d-md-block(src="@/assets/curso/temas/tema2/imagen-1.png" data-aos="fade-left")
+
+    p.mb-5 Cuando el huevo se encuentra en el área de almacenamiento, ya está listo para ser trasladado al área de clasificación. Para el transporte del huevo en las bandejas desde la granja hasta la clasificadora, se maneja una logística que garantice la seguridad del producto donde no se vaya a deteriorar. Existen vehículos acondicionados para tal labor, en la siguiente figura se puede observar un ejemplo:
+
+    .col-xl-10.mx-auto.mb-5
+      .titulo-sexto.color-primario(data-aos="fade-right")
+        h5 Figura 13.
+        span <em>Furgón especializado para transporte de huevo</em>
+      img.d-md-block(src="@/assets/curso/temas/tema2/imagen-2.png" data-aos="fade-left")
+
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 2.2 Tipos de huevo según su tamaño y peso
 
@@ -21,7 +66,7 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Figura 11.
+        h5 Figura 14.
         span <em>Clasificación del huevo por peso</em>
       img.d-md-block(src="@/assets/curso/temas/tema2/img-24.svg" data-aos="fade-left")
 
@@ -32,7 +77,6 @@
 
     p El proceso de clasificación del huevo puede ser manual o automático, dependiendo de la disponibilidad de la máquina clasificadora que se utilice en la explotación avícola. Este proceso depende también de la cantidad de huevo que se produzca y de la velocidad de las máquinas para seleccionar una cantidad estimada de huevo por tiempo y su proyección comercial. 
     p Esta actividad comienza a diario con el huevo siendo seleccionado y llevado a evaluación por medio de transportadores al ovoscopio en máquinas automatizadas donde se separa el huevo sucio, picado y rotos por parte de un operario donde el destino de estos huevos es para subproductos donde se retira la cáscara, clara y yema para evitar pérdidas económicas por la condición del huevo. 
-    p Esta misma actividad se realiza en clasificadores manuales sin la ayuda de equipos, solo con el ojo del operario. El resto del producto va direccionado al pesaje para ser clasificado por medio de cucharas calibradas para determinar el tipo de huevo y pasar al empaque y embalaje. 
     p.mb-5 Esta misma actividad se realiza en clasificadores manuales sin la ayuda de equipos, solo con el ojo del operario. El resto del producto va direccionado al pesaje para ser clasificado por medio de cucharas calibradas para determinar el tipo de huevo y pasar al empaque y embalaje. 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -61,7 +105,7 @@
             h3 Aprendizaje de las gallinas a la puesta en el nido
             p Un incorrecto entrenamiento de las aves a usar el nido como lugar de puesta, puede derivar en la puesta en el suelo o piso de la nave y, en consecuencia, una mayor probabilidad de contaminación interna del huevo. (Soriano, 2020).
 
-          .col-md-6
+          .col-md-6.px-3
             figure
               img(src='@/assets/curso/temas/tema2/img-27.png', alt='Texto que describa la imagen')
 
@@ -70,7 +114,7 @@
             h3 Edad de la gallina
             p Las gallinas, al inicio de la puesta, pueden tener un mayor número de huevos sucios debido a un mayor porcentaje de puesta en suelo, pues están en proceso de aprendizaje a la puesta en el nido.
 
-          .col-md-6
+          .col-md-6.px-3
             figure
               img(src='@/assets/curso/temas/tema2/img-28.png', alt='Texto que describa la imagen')
 
@@ -79,7 +123,7 @@
             h3 Nutrición
             p Entre los factores que más se evidencian está la composición de la dieta ya que algunos cereales que son dispuestos para la alimentación son ricos en polisacáridos no amiláceos como el centeno, producen que las heces sean más pastosas (líquidas) y esto conlleva a que se pueda ensuciar el huevo. De igual forma, el aporte alto de sales minerales puede llevar a una secreción excesiva de agua y llevando a una diarrea no patogénica que aquella causada por acción de otros agentes diferentes a patógenos (virus, bacterias, protozoos, etc.) y que manche el huevo. 
 
-          .col-md-6
+          .col-md-6.px-3
             figure
               img(src='@/assets/curso/temas/tema2/img-29.png', alt='Texto que describa la imagen')
 
@@ -88,7 +132,7 @@
             h3 Sanidad
             p La presencia de heces líquidas se relaciona habitualmente con agentes que causan situaciones de desequilibrio intestinal (disbacteriosis) o lesiones intestinales como condiciones de estrés (cambios bruscos de temperatura), algunas infecciones con proceso digestivo. “Los agentes infecciosos pueden estar presentes previamente en las instalaciones por una incorrecta desinfección y limpieza, pero también pueden acceder a la nave por una incorrecta manipulación de operarios y visitantes, o por una mala calidad microbiológica del alimento o del agua”. (Soriano, 2020). 
 
-          .col-md-6
+          .col-md-6.px-3
             figure
               img(src='@/assets/curso/temas/tema2/img-30.png', alt='Texto que describa la imagen')
 
@@ -97,7 +141,7 @@
             h3 Instalaciones
             p Se tiene presente toda afectación que se genere en el ambiente o entorno como mala ventilación del nido lleve a que el animal ponga los huevos fuera del este. Así mismo, un nido en malas condiciones puede ocasionar la puesta en el suelo. Por otro lado, el exceso de cama incrementa las posibilidades de proporcionar un espacio diferente al estipulado para la puesta y se aumenta el riesgo de que huevo se ensucie. 
 
-          .col-md-6
+          .col-md-6.px-3
             figure
               img(src='@/assets/curso/temas/tema2/img-31.png', alt='Texto que describa la imagen')
 
@@ -107,13 +151,13 @@
             p Un mal estado de las instalaciones como la cama o el nido, como a su vez mantener altas densidades incrementan el riesgo de contaminación:
             p En casos de altas densidades el acceso al nido puede verse comprometido, aumentando el riesgo de contaminación si el huevo es puesto en el suelo. Un mal estado de la cama repercute en el estado del nido, las alfombrillas o la cinta, y facilita la presencia de suciedad en el huevo. Además, facilita la supervivencia y posterior transmisión de múltiples agentes infecciosos, que pueden afectar al sistema digestivo y agravar la situación. (Soriano, 2020).
 
-          .col-md-6
+          .col-md-6.px-3
             figure
               img(src='@/assets/curso/temas/tema2/img-32.png', alt='Texto que describa la imagen')
 
     p.mb-5 Para ampliar la información, se invita a leer el artículo Huevos sucios: causas y soluciones, el cual se encuentra en el material complementario. 
 
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-33.png')})`}"
       )

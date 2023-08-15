@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 El componente formativo Selección técnica huevos de gallina, abarca temas relacionados con la selección del huevo, en donde se evalúan los manejos y procedimientos que se ejecutan a diario en granjas y compañías avícolas, con el fin de ofrecer calidad en el producto final que va a la mesa del consumidor.
+    p.mb-5 El componente formativo Selección técnica de huevos de gallina, abarca temas relacionados con la selección del huevo, en donde se evalúan los manejos y procedimientos que se ejecutan a diario en granjas y compañías avícolas, con el fin de ofrecer calidad en el producto final que va a la mesa del consumidor.
 
     .row.justify-content-center
       .col-lg-10.mb-5
