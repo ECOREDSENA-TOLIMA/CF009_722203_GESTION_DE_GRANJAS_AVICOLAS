@@ -43,7 +43,7 @@
     
     p En muchas granjas se tiene la práctica de limpiar o retirar las heces fecales de las aves del huevo con la misma clara de un huevo roto, pero esto solamente hace que disminuyan los días de frescura, ya que se bloquea el intercambio gaseoso que se realiza por medio de los poros de la cascara del huevo.
     p Lo más recomendable es con una esponja o fibra de metal para conservar las propiedades organolépticas del huevo para el consumo humano.
-    p.mb-5 A continuación, se realiza el almacenamiento del huevo recolectado, este se debe apilar en bandejas o cartones de huevo dependiendo de la edad de las aves y la calidad de la cascara para no sufrir deterioro en el producto. Las bandejas de huevo por bioseguridad no pueden estar en contacto con el piso, deben colocarse en estibas o estanterías rotuladas para saber la procedencia del huevo y realizar trazabilidad en el área de la clasificadora. En la siguiente figura se puede ver la forma correcta de apilar las bandejas de huevos en una estantería.
+    p.mb-5 A continuación, se realiza el almacenamiento del huevo recolectado, este se debe apilar en bandejas o cartones de huevo dependiendo de la edad de las aves y la calidad de la cáscara para no sufrir deterioro en el producto. Las bandejas de huevo por bioseguridad no pueden estar en contacto con el piso, deben colocarse en estibas o estanterías rotuladas para saber la procedencia del huevo y realizar trazabilidad en el área de la clasificadora. En la siguiente figura se puede ver la forma correcta de apilar las bandejas de huevos en una estantería.
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
@@ -87,7 +87,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-25.png')})`}"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.mb-0 Esta clase de huevos son separados antes de la clasificación y así evitar que contaminen el proceso y los equipos. El destino de estos huevos en la actualidad ha permitido no tener pérdidas económicas a los avicultores, porque con ellos se ha venido manejando la pasteurización del huevo para el proceso de pastelerías, salsas y otros alimentos que requiere de este producto; a costo y logística de espacio más favorable a la industria alimenticia. Se retira la cascara, de la yema y la clara; este contenido se lleva a refrigeración en bolsas plásticas para luego revisar el pH y enviarlo a proceso de pasteurización (huevo en polvo). 
+        p.mb-0 Esta clase de huevos son separados antes de la clasificación y así evitar que contaminen el proceso y los equipos. El destino de estos huevos en la actualidad ha permitido no tener pérdidas económicas a los avicultores, porque con ellos se ha venido manejando la pasteurización del huevo para el proceso de pastelerías, salsas y otros alimentos que requiere de este producto; a costo y logística de espacio más favorable a la industria alimenticia. Se retira la cáscara, de la yema y la clara; este contenido se lleva a refrigeración en bolsas plásticas para luego revisar el pH y enviarlo a proceso de pasteurización (huevo en polvo). 
 
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(

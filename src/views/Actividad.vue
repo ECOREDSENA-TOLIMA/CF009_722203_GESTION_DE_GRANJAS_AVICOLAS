@@ -10,7 +10,7 @@
             img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Clasificación del huevo comercial.
+          h2 Clasificación del huevo comercial
         p.mb-4 #[b Objetivo:] aplicar los conocimientos adquiridos en el componente formativo Selección técnica de huevos de gallina
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
