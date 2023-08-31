@@ -165,7 +165,7 @@
         span <em>Principales propiedades de los desinfectantes</em>
       img.d-md-block(src="@/assets/curso/temas/tema1/img-8.svg" data-aos="fade-left")
 
-    p.mb-5 En el siguiente documento se conocerán las principales características de los desinfectantes y sustancias activas biocidas del proyecto Food for Life-Spain. 
+    p.mb-5 En el siguiente documento se conocerán las principales características de los desinfectantes y sustancias activas biocidas del proyecto <em>Food for Life-Spain.</em> 
 
     .row
       .col-xl-6.mx-auto.mb-4
@@ -343,7 +343,7 @@
               p.parrafo_1 Si se requiere para labores de limpieza
           .row
             .col-lg
-              p.my-5(style="position:relative") Lavarse las manos con agua y jabón con frecuencia en el proceso para luego desinfectarlas y minimizar el riesgo de contaminación de la zona de trabajo y del producto.
+              p.my-5(style="position:relative") Lavarse las manos con agua y jabón con frecuencia en el proceso, para luego desinfectarlas y minimizar el riesgo de contaminación de la zona de trabajo y del producto.
    
             .col-auto
               figure(data-aos="zoom-in")
