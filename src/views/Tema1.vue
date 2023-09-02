@@ -143,8 +143,8 @@
         .row.mb-5
           .col-12.col-md-6.mb-5
             .titulo-sexto.color-primario
-              p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Banda clasificatoria automatizada de huevos</i>
-            img.mb-3(src='@/assets/curso/temas/tema2/img-03.png')
+              p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Máquina seleccionadora y clasificadora de huevos automática</i>
+            img.mb-3(src='@/assets/curso/temas/tema2/img-03-1.jpg')
             figcaption Nota. Banda clasificatoria de huevos para capacidad de 3500 a 4500 huevos por hora. Tomada de AgroLibre. (s.f.)
           .col-12.col-md-6
             .titulo-sexto.color-primario
@@ -152,7 +152,7 @@
             img.mb-3(src='@/assets/curso/temas/tema2/img-04.png')
             figcaption Nota. Banda clasificadora manual moba Type 68 para capacidad de 3000 huevos por hora. JM. Alcantara. Tomada de PROultry. (s.f.)
 
-    p.mb-5 Para ampliar la información, se invita a ver el video clasificadora de huevos yemita, que se encuentra en el material complementario, en el cual se puede apreciar el funcionamiento de una máquina clasificadora de huevo.
+    p.mb-5 Para ampliar la información, se invita a ver el video <strong>Clasificadora de Huevos Yemita,</strong> que se encuentra en el material complementario, en el cual se puede apreciar el funcionamiento de una máquina clasificadora de huevo.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 1.2 Desinfectantes y dosificación
@@ -371,7 +371,7 @@
             .col-lg
               p.my-5(style="position:relative") En las instalaciones de la clasificadora se debe contar con espacios exclusivos para el consumo de alimentos y bebidas, ya que en área de clasificación no se debe consumir alimento debido a que se puede generar una contaminación cruzada.
 
-    p Para otros aspectos sobre la disposición de elementos de seguridad en la operación de limpieza y desinfección en el área de clasificación del huevo, se invita a ver el enlace Equipo de protección personal básico para la industria alimentaria, que se encuentra en el material complementario.
+    p Para otros aspectos sobre la disposición de elementos de seguridad en la operación de limpieza y desinfección en el área de clasificación del huevo, se invita a ver el enlace <strong>Equipo de protección personal básico para la industria alimentaria,</strong> que se encuentra en el material complementario.
 
     
 

@@ -12,13 +12,13 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 2.1 Recolección del huevo, almacenamiento y transporte a la clasificadora
 
-    p Se inicia el proceso con la recolección del huevo, esta actividad se realiza en el galpón teniendo en cuenta todas las medidas de bioseguridad y se pueden encontrar varios métodos que se utilizan actualmente, entre ellos están:
+    p.mb-5 Se inicia el proceso con la <strong>recolección del huevo,</strong> esta actividad se realiza en el galpón teniendo en cuenta todas las medidas de bioseguridad y se pueden encontrar varios métodos que se utilizan actualmente, entre ellos están:
     
     .row.justify-content-center 
       .col-12.col-lg-10.col-md-11
         .row.mb-5
           .col-12.col-md-6
-            h2.mt-3 a) Recolección manual en piso
+            h2.mt-3 a) Recolección manual en piso:
             p En ocasiones la granja cuenta con el área de clasificación manual o en grandes compañías podemos encontrar su centro de clasificación fuera de la granja, cumpliendo con todos los estándares de BPAv según Resolución 3651 del 2014.
           .col-12.col-md-6
             .titulo-sexto.color-primario
@@ -26,7 +26,7 @@
             img(src='@/assets/curso/temas/tema2/imagen-3.svg')
         .row.mb-5
           .col-12.col-md-6
-            h2.mt-3 b) Recolección automática en jaula
+            h2.mt-3 b) Recolección automática en jaula:
             p En los galpones de jaulas en ambientes automáticos, su misma sistematización hace llegar los huevos de cada jaula por medio de bandas transportadoras a la zona de clasificación. En este caso, el porcentaje de huevo sucio por las heces disminuye a comparación de la recolección en piso.
           .col-12.col-md-6
             .titulo-sexto.color-primario
@@ -34,16 +34,17 @@
             img(src='@/assets/curso/temas/tema2/imagen-4.svg')
         .row.mb-5
           .col-12.col-md-6
-            h2.mt-3 c) Recolección en jaula californiana
+            h2.mt-3 c) Recolección en jaula californiana:
             p En los galpones de jaula california se realiza recogida del huevo de forma manual, para luego limpiarlos y direccionarlos a la clasificadora. Esta jaula también es llamada piramidal; es una alternativa de explotación para el aprovechamiento de espacio y aumento de densidades a nivel tradicional sin ninguna automatización.
           .col-12.col-md-6
             .titulo-sexto.color-primario
               p.titulo.pb-0.mb-0 <b>Figura 11. </b> <i>Jaulas californianas</i>
             img(src='@/assets/curso/temas/tema2/imagen-5.svg')
     
-    p En muchas granjas se tiene la práctica de limpiar o retirar las heces fecales de las aves del huevo con la misma clara de un huevo roto, pero esto solamente hace que disminuyan los días de frescura, ya que se bloquea el intercambio gaseoso que se realiza por medio de los poros de la cascara del huevo.
+    p Después de haber conocido las diferentes formas de recolectar el huevo para comercializar, se debe tener en cuenta su limpieza previa al almacenamiento en granja o despacho a la clasificadora.
+    p En muchas granjas se tiene la práctica de limpiar o retirar las heces fecales de las aves del huevo con la misma clara de un huevo roto, pero esto solamente hace que disminuyan los días de frescura, ya que se bloquea el intercambio gaseoso que se realiza por medio de los poros de la cáscara del huevo.
     p Lo más recomendable es con una esponja o fibra de metal para conservar las propiedades organolépticas del huevo para el consumo humano.
-    p.mb-5 A continuación, se realiza el almacenamiento del huevo recolectado, este se debe apilar en bandejas o cartones de huevo dependiendo de la edad de las aves y la calidad de la cáscara para no sufrir deterioro en el producto. Las bandejas de huevo por bioseguridad no pueden estar en contacto con el piso, deben colocarse en estibas o estanterías rotuladas para saber la procedencia del huevo y realizar trazabilidad en el área de la clasificadora. En la siguiente figura se puede ver la forma correcta de apilar las bandejas de huevos en una estantería.
+    p.mb-5 A continuación, se realiza el <strong>almacenamiento del huevo</strong> recolectado, este se debe apilar en bandejas o cartones de huevo dependiendo de la edad de las aves y la calidad de la cáscara para no sufrir deterioro en el producto. Las bandejas de huevo por bioseguridad no pueden estar en contacto con el piso, deben colocarse en estibas o estanterías rotuladas para saber la procedencia del huevo y realizar trazabilidad en el área de la clasificadora. En la siguiente figura se puede ver la forma correcta de apilar las bandejas de huevos en una estantería.
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
@@ -51,7 +52,7 @@
         span <em>Estantería de almacenamiento del huevo</em>
       img.d-md-block(src="@/assets/curso/temas/tema2/imagen-1.png" data-aos="fade-left")
 
-    p.mb-5 Cuando el huevo se encuentra en el área de almacenamiento, ya está listo para ser trasladado al área de clasificación. Para el transporte del huevo en las bandejas desde la granja hasta la clasificadora, se maneja una logística que garantice la seguridad del producto donde no se vaya a deteriorar. Existen vehículos acondicionados para tal labor, en la siguiente figura se puede observar un ejemplo:
+    p.mb-5 Cuando el huevo se encuentra en el área de almacenamiento, ya está listo para ser trasladado al área de clasificación. Para el <strong>transporte del huevo</strong> en las bandejas desde la granja hasta la clasificadora, se maneja una logística que garantice la seguridad del producto donde no se vaya a deteriorar. Existen vehículos acondicionados para tal labor, en la siguiente figura se puede observar un ejemplo:
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
@@ -77,7 +78,8 @@
 
     p El proceso de clasificación del huevo puede ser manual o automático, dependiendo de la disponibilidad de la máquina clasificadora que se utilice en la explotación avícola. Este proceso depende también de la cantidad de huevo que se produzca y de la velocidad de las máquinas para seleccionar una cantidad estimada de huevo por tiempo y su proyección comercial. 
     p Esta actividad comienza a diario con el huevo siendo seleccionado y llevado a evaluación por medio de transportadores al ovoscopio en máquinas automatizadas donde se separa el huevo sucio, picado y rotos por parte de un operario donde el destino de estos huevos es para subproductos donde se retira la cáscara, clara y yema para evitar pérdidas económicas por la condición del huevo. 
-    p.mb-5 Esta misma actividad se realiza en clasificadores manuales sin la ayuda de equipos, solo con el ojo del operario. El resto del producto va direccionado al pesaje para ser clasificado por medio de cucharas calibradas para determinar el tipo de huevo y pasar al empaque y embalaje. 
+    p Esta misma actividad se realiza en clasificadores manuales sin la ayuda de equipos, solo con el ojo del operario. El resto del producto va direccionado al pesaje para ser clasificado por medio de cucharas calibradas para determinar el tipo de huevo y pasar al empaque y embalaje. 
+    p.mb-5 Para ver un ejemplo de proceso de clasificación del huevo en la empresa Avícola Toscana, se invita a ver el video <strong>Recolección y clasificación,</strong> que se encuentra en el material complementario.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 Separación de huevo sucio, picado y roto
@@ -155,7 +157,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img-32.png', alt='Texto que describa la imagen')
 
-    p.mb-5 Para ampliar la información, se invita a leer el artículo Huevos sucios: causas y soluciones, el cual se encuentra en el material complementario. 
+    p.mb-5 Para ampliar la información, se invita a leer el artículo <strong>Huevos sucios: causas y soluciones,</strong> el cual se encuentra en el material complementario. 
 
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -184,11 +186,11 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Figura 12.
+        h5 Figura 15.
         span <em>Huevo con etiqueta</em>
       img.d-md-block(src="@/assets/curso/temas/tema2/img-34.svg" data-aos="fade-left")
 
-    p.mb-5 Se invita a ver el video Requisitos para certificar una granja avícola como biosegura, el cual se encuentra en el material complementario.
+    p.mb-5 Se invita a ver el video <strong>Requisitos para certificar una granja avícola como biosegura,</strong> el cual se encuentra en el material complementario.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 Manejo de residuos del proceso de clasificación
@@ -215,7 +217,7 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Figura 13.
+        h5 Figura 16.
         span <em>Tipos de bandeja</em>
       img.d-md-block(src="@/assets/curso/temas/tema2/img-36.svg" data-aos="fade-left")
 
