@@ -155,7 +155,7 @@
     p.mb-5 Para ampliar la información, se invita a ver el video <strong>Clasificadora de Huevos Yemita,</strong> que se encuentra en el material complementario, en el cual se puede apreciar el funcionamiento de una máquina clasificadora de huevo.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.2 Desinfectantes y dosificación
+      h2#t_1_2 1.2 Desinfectantes y dosificación
 
     p.mb-5 Los desinfectantes son una variedad de sustancias químicas o de origen natural encargadas de eliminar en gran parte microorganismos (virus, bacterias, hongos) de superficie y ambientales que pueden afectar la inocuidad del producto que se está seleccionando. Los desinfectantes deben cumplir con unas propiedades que determinan su efectividad letal y que permitan elegir el principio activo adecuado para su uso. Estos son, ver figura 6: 
 
@@ -186,7 +186,7 @@
         p.mb-0 Existen desinfectantes que están diseñados específicamente para luchar contra las bacterias y tienen un efecto limitado contra los virus (viricida limitado) y otros que luchan contra una gran variedad de virus (viricida) y débil para las bacterias; por tanto, hay que conocer los microrganismos a los que se está expuesto en la industria avícola en el momento de la selección del huevo comercial y así elegir el desinfectante ideal para la labor y poder cumplir las reglas de uso. 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.3 Alistamiento y planeación de labores de la clasificadora
+      h2#t_1_3 1.3 Alistamiento y planeación de labores de la clasificadora
 
     p Las actividades de limpieza y desinfección a ejecutar en las áreas de la clasificadora deben ser programadas generalmente por semana para ser ejecutadas a diario, realizando una distribución de los operarios a un nivel rotativo que permita conocer los procedimientos de la labor en cada etapa de los espacios físicos como de los equipos de la clasificadora. 
     p Esta labor de limpieza y desinfección diaria se realiza de la siguiente manera:
@@ -241,7 +241,7 @@
       img.d-md-block(src="@/assets/curso/temas/tema1/img-11.svg" data-aos="fade-left")
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.4 Elementos de seguridad en el trabajo
+      h2#t_1_4 1.4 Elementos de seguridad en el trabajo
 
     p.mb-5 Para la labor de limpieza y desinfección se debe cumplir con unos requisitos de seguridad en el manejo de los equipos, utensilios e insumos ya que son labores repetitivas a diario que pueden conllevar a una enfermedad o accidente laboral. Dentro de la industria avícola bajo normativa de Ministerio de Protección y Ministerio del Trabajo, adicional de resoluciones ICA y FENAVI, incurren en la protección del trabajador a partir de la conservación del producto inocuo. Por tanto, se deben tener en cuenta tres factores dentro de la clasificadora para determinar los diferentes elementos que conserven la seguridad del empleado como del producto, ver figura 7:
 

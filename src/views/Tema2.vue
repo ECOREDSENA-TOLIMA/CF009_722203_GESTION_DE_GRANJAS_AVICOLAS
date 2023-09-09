@@ -10,7 +10,7 @@
     p.mb-5 Estas actividades son realizadas en el área de clasificación con la llegada del huevo comercial o de mesa, desde la granja de postura al centro de acopio para almacenar, seleccionar y caracterizar el huevo según su peso y destino que se le vaya a dar al producto dando su correspondiente trazabilidad para garantizar su inocuidad y frescura.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 2.1 Recolección del huevo, almacenamiento y transporte a la clasificadora
+      h2#t_2_1 2.1 Recolección del huevo, almacenamiento y transporte a la clasificadora
 
     p.mb-5 Se inicia el proceso con la <strong>recolección del huevo,</strong> esta actividad se realiza en el galpón teniendo en cuenta todas las medidas de bioseguridad y se pueden encontrar varios métodos que se utilizan actualmente, entre ellos están:
     
@@ -61,7 +61,7 @@
       img.d-md-block(src="@/assets/curso/temas/tema2/imagen-2.png" data-aos="fade-left")
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 2.2 Tipos de huevo según su tamaño y peso
+      h2#t_2_2 2.2 Tipos de huevo según su tamaño y peso
 
     p.mb-5 Los huevos a través del tiempo y mejorando los procedimientos de clasificación, se han dejado de seleccionar a ojo por su tamaño; hoy ya se clasifican por peso según normatividad colombiana NTC 1240 dando la categoría de huevo tipo C, B, A, AA, AAA, 4A o Jumbo; cada una de estas categorías con su correspondiente peso, ver figura 11.
 
@@ -74,7 +74,7 @@
     p.mb-5 Para conocer la norma NTC 1240, se invita a visitar el enlace que se encuentra en el material complementario.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 2.3 Proceso de clasificación
+      h2#t_2_3 2.3 Proceso de clasificación
 
     p El proceso de clasificación del huevo puede ser manual o automático, dependiendo de la disponibilidad de la máquina clasificadora que se utilice en la explotación avícola. Este proceso depende también de la cantidad de huevo que se produzca y de la velocidad de las máquinas para seleccionar una cantidad estimada de huevo por tiempo y su proyección comercial. 
     p Esta actividad comienza a diario con el huevo siendo seleccionado y llevado a evaluación por medio de transportadores al ovoscopio en máquinas automatizadas donde se separa el huevo sucio, picado y rotos por parte de un operario donde el destino de estos huevos es para subproductos donde se retira la cáscara, clara y yema para evitar pérdidas económicas por la condición del huevo. 
@@ -211,7 +211,7 @@
         p.mb-0 Las bandejas que son traídas con los huevos desde la granja se descartan en el proceso de clasificación.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 2.4 Nombre de bandejas para el almacenamiento del huevo según tamaño
+      h2#t_2_4 2.4 Nombre de bandejas para el almacenamiento del huevo según tamaño
 
     p.mb-5 Las bandejas utilizadas para el almacenamiento del huevo tienen su medida, y resistencia correspondiente al tamaño y peso del huevo como se observa en la siguiente figura 13.
 
@@ -229,7 +229,7 @@
         p.mb-0 Hay que tener en cuenta las características de las bandejas, porque permitirán proteger el huevo desde que se recoge en granja hasta que se comercializa. Esto se maneja en granja con la edad de las aves desde la semana 16 a la 25 de edad en bandeja tipo B, y desde la semana 25 en adelante se maneja bandeja promedio tipo AA. En el proceso de clasificación y comercialización se utiliza las bandejas con base al tipo del huevo clasificado.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 2.5 Empaque y embalaje
+      h2#t_2_5 2.5 Empaque y embalaje
 
     p Para el sector avícola en Colombia, está regulada la práctica de empaque y embalaje de huevo por la Resolución 3651 del 2014, en su artículo 12 menciona que esta práctica puede ser realizada de manera manual o automática utilizando bandejas y embalajes nuevos para evitar contaminación o traslado de enfermedades aviares desde la granja a otro sector. Estas bandejas deben cumplir con los requerimientos del Ministerio de Salud donde exige que el material utilizado debe ser certificado para el contacto con el alimento. 
     p La presentación de los diferentes empaque y embalaje da la alternativa al consumidor de adquirir un producto de alta calidad e inocuo que cumple con la conservación de las características organolépticas del huevo y las cantidades que desde el presupuesto sea posible obtener. Estas pueden ser de bandejas plásticas y de cartón y en las siguientes cantidades:
