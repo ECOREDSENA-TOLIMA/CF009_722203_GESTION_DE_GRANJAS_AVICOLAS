@@ -40,6 +40,11 @@ export default {
             titulo: 'Alistamiento y planeación de labores de la clasificadora',
             hash: 't_1_3',
           },
+          {
+            numero: '1.4',
+            titulo: 'Elementos de seguridad en el trabajo',
+            hash: 't_1_4',
+          },
         ],
       },
 
@@ -70,6 +75,11 @@ export default {
             titulo:
               'Nombre de bandejas para el almacenamiento del huevo según tamaño',
             hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Empaque y embalaje',
+            hash: 't_2_5',
           },
         ],
       },
@@ -151,7 +161,7 @@ export default {
     },
     {
       tema: 'Tipos de huevo según su tamaño y peso.',
-      referencia: 'docplayer.es. (2011). Norma Técnica Colombiana NTC1240.',
+      referencia: 'docplayer.es. (2011). Norma Técnica Colombiana NTC 1240.',
       tipo: 'Norma',
       link: 'https://docplayer.es/54870550-Norma-tecnica-colombiana-1240.html',
     },
@@ -181,11 +191,11 @@ export default {
   glosario: [
     {
       termino: 'BPAV',
-      significado: 'buenas prácticas avícolas.',
+      significado: '<span>Buenas Prácticas Avícolas.</span>',
     },
     {
       termino: 'BPM',
-      significado: 'buenas prácticas de manufactura.',
+      significado: '<span>Buenas Prácticas de Manufactura.</span>',
     },
     {
       termino: 'Concentración',
@@ -227,12 +237,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Ángel, J. (2016). Elaboración de producto a base de huevo (ovoproducto) tv agro. (Video). YouTube.',
+        'Ángel, J. (2016). Elaboración de productos a base de huevo (Ovoproductos) TvAgro. (Video). YouTube.',
       link: 'https://www.youtube.com/watch?v=efCxBP3LHGM',
     },
     {
       referencia:
-        'Norma técnica colombiana NTC1240 Industrial Alimentaria. Huevos de Gallina Frescos para Consumo.',
+        'Norma técnica colombiana NTC 1240 Industrial Alimentaria. Huevos de Gallina Frescos para Consumo.',
       link: 'https://www.huila.gov.co/documentos/1620/huevo/',
     },
     {

@@ -9,8 +9,9 @@
 
     p.mb-5 Estas actividades son realizadas en el área de clasificación con la llegada del huevo comercial o de mesa, desde la granja de postura al centro de acopio para almacenar, seleccionar y caracterizar el huevo según su peso y destino que se le vaya a dar al producto dando su correspondiente trazabilidad para garantizar su inocuidad y frescura.
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_1 2.1 Recolección del huevo, almacenamiento y transporte a la clasificadora
+    Separador
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.1 Recolección del huevo, almacenamiento y transporte a la clasificadora
 
     p.mb-5 Se inicia el proceso con la <strong>recolección del huevo,</strong> esta actividad se realiza en el galpón teniendo en cuenta todas las medidas de bioseguridad y se pueden encontrar varios métodos que se utilizan actualmente, entre ellos están:
     
@@ -19,11 +20,11 @@
         .row.mb-5
           .col-12.col-md-6
             h2.mt-3 a) Recolección manual en piso:
-            p En ocasiones la granja cuenta con el área de clasificación manual o en grandes compañías podemos encontrar su centro de clasificación fuera de la granja, cumpliendo con todos los estándares de BPAv según Resolución 3651 del 2014.
+            p En ocasiones la granja cuenta con el área de clasificación manual o en grandes compañías podemos encontrar su centro de clasificación fuera de la granja, cumpliendo con todos los estándares de BPAV según Resolución 3651 del 2014.
           .col-12.col-md-6
             .titulo-sexto.color-primario
               p.titulo.pb-0.mb-0 <b>Figura 9. </b> <i>Recolección manual de huevo</i>
-            img(src='@/assets/curso/temas/tema2/imagen-3.svg')
+            img(src='@/assets/curso/temas/tema2/imagen-3.svg' alt="En la figura 9 se muestra la recolección manual del huevo.")
         .row.mb-5
           .col-12.col-md-6
             h2.mt-3 b) Recolección automática en jaula:
@@ -31,7 +32,7 @@
           .col-12.col-md-6
             .titulo-sexto.color-primario
               p.titulo.pb-0.mb-0 <b>Figura 10. </b> <i>Bandas transportadoras de huevo</i>
-            img(src='@/assets/curso/temas/tema2/imagen-4.svg')
+            img(src='@/assets/curso/temas/tema2/imagen-4.svg' alt="En la figura 10 se muestran las bandas transportadoras de huevo en la recolección en jaula.")
         .row.mb-5
           .col-12.col-md-6
             h2.mt-3 c) Recolección en jaula californiana:
@@ -39,7 +40,7 @@
           .col-12.col-md-6
             .titulo-sexto.color-primario
               p.titulo.pb-0.mb-0 <b>Figura 11. </b> <i>Jaulas californianas</i>
-            img(src='@/assets/curso/temas/tema2/imagen-5.svg')
+            img(src='@/assets/curso/temas/tema2/imagen-5.svg' alt="En la figura 11 se muestran las jaulas californianas.")
     
     p Después de haber conocido las diferentes formas de recolectar el huevo para comercializar, se debe tener en cuenta su limpieza previa al almacenamiento en granja o despacho a la clasificadora.
     p En muchas granjas se tiene la práctica de limpiar o retirar las heces fecales de las aves del huevo con la misma clara de un huevo roto, pero esto solamente hace que disminuyan los días de frescura, ya que se bloquea el intercambio gaseoso que se realiza por medio de los poros de la cáscara del huevo.
@@ -50,7 +51,7 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 12.
         span <em>Estantería de almacenamiento del huevo</em>
-      img.d-md-block(src="@/assets/curso/temas/tema2/imagen-1.png" data-aos="fade-left")
+      img.d-md-block(src="@/assets/curso/temas/tema2/imagen-1.png" data-aos="fade-left" alt="En la figura 12 se muestra una estantería de almacenamiento del huevo.")
 
     p.mb-5 Cuando el huevo se encuentra en el área de almacenamiento, ya está listo para ser trasladado al área de clasificación. Para el <strong>transporte del huevo</strong> en las bandejas desde la granja hasta la clasificadora, se maneja una logística que garantice la seguridad del producto donde no se vaya a deteriorar. Existen vehículos acondicionados para tal labor, en la siguiente figura se puede observar un ejemplo:
 
@@ -58,23 +59,25 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 13.
         span <em>Furgón especializado para transporte de huevo</em>
-      img.d-md-block(src="@/assets/curso/temas/tema2/imagen-2.png" data-aos="fade-left")
+      img.d-md-block(src="@/assets/curso/temas/tema2/imagen-2.png" data-aos="fade-left" alt="En la figura 13 se muestra un furgón especializado para transporte de huevo.")
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_2 2.2 Tipos de huevo según su tamaño y peso
+    Separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.2 Tipos de huevo según su tamaño y peso
 
-    p.mb-5 Los huevos a través del tiempo y mejorando los procedimientos de clasificación, se han dejado de seleccionar a ojo por su tamaño; hoy ya se clasifican por peso según normatividad colombiana NTC 1240 dando la categoría de huevo tipo C, B, A, AA, AAA, 4A o Jumbo; cada una de estas categorías con su correspondiente peso, ver figura 11.
+    p.mb-5 Los huevos a través del tiempo y mejorando los procedimientos de clasificación, se han dejado de seleccionar a ojo por su tamaño; hoy ya se clasifican por peso según normatividad colombiana NTC 1240 dando la categoría de huevo tipo C, B, A, AA, AAA, 4A o Jumbo; cada una de estas categorías con su correspondiente peso, ver figura 14.
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 14.
         span <em>Clasificación del huevo por peso</em>
-      img.d-md-block(src="@/assets/curso/temas/tema2/img-24.svg" data-aos="fade-left")
-
+      img.d-md-block(src="@/assets/curso/temas/tema2/img-24.svg" data-aos="fade-left" alt="En la figura 14 se muestra la clasificación del huevo por peso.")
+      figcaption Nota. Adaptado de la Norma NTC 1240.
     p.mb-5 Para conocer la norma NTC 1240, se invita a visitar el enlace que se encuentra en el material complementario.
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_3 2.3 Proceso de clasificación
+    Separador
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.3 Proceso de clasificación
 
     p El proceso de clasificación del huevo puede ser manual o automático, dependiendo de la disponibilidad de la máquina clasificadora que se utilice en la explotación avícola. Este proceso depende también de la cantidad de huevo que se produzca y de la velocidad de las máquinas para seleccionar una cantidad estimada de huevo por tiempo y su proyección comercial. 
     p Esta actividad comienza a diario con el huevo siendo seleccionado y llevado a evaluación por medio de transportadores al ovoscopio en máquinas automatizadas donde se separa el huevo sucio, picado y rotos por parte de un operario donde el destino de estos huevos es para subproductos donde se retira la cáscara, clara y yema para evitar pérdidas económicas por la condición del huevo. 
@@ -82,7 +85,7 @@
     p.mb-5 Para ver un ejemplo de proceso de clasificación del huevo en la empresa Avícola Toscana, se invita a ver el video <strong>Recolección y clasificación,</strong> que se encuentra en el material complementario.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 Separación de huevo sucio, picado y roto
+      h3 Separación de huevo sucio, picado y roto
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -109,7 +112,7 @@
 
           .col-md-6.px-3
             figure
-              img(src='@/assets/curso/temas/tema2/img-27.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-27.png', alt='')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -118,7 +121,7 @@
 
           .col-md-6.px-3
             figure
-              img(src='@/assets/curso/temas/tema2/img-28.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-28.png', alt='')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -127,7 +130,7 @@
 
           .col-md-6.px-3
             figure
-              img(src='@/assets/curso/temas/tema2/img-29.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-29.png', alt='')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -136,7 +139,7 @@
 
           .col-md-6.px-3
             figure
-              img(src='@/assets/curso/temas/tema2/img-30.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-30.png', alt='')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -145,7 +148,7 @@
 
           .col-md-6.px-3
             figure
-              img(src='@/assets/curso/temas/tema2/img-31.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-31.png', alt='')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -155,7 +158,7 @@
 
           .col-md-6.px-3
             figure
-              img(src='@/assets/curso/temas/tema2/img-32.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-32.png', alt='')
 
     p.mb-5 Para ampliar la información, se invita a leer el artículo <strong>Huevos sucios: causas y soluciones,</strong> el cual se encuentra en el material complementario. 
 
@@ -167,10 +170,10 @@
         p.mb-0 Para el despacho del huevo empacado en bolsas plásticas se realiza pesaje de estas para reportar en remisión los kilos de huevo que van para el proceso de pasteurización a una empresa externa que ofrece este servicio. 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 Identificación o marcación del huevo clasificado
+      h3 Identificación o marcación del huevo clasificado
 
     p El rotulado del huevo o empaque de estos va identificado con números internos que manejan las compañías avícolas para detectar el origen del producto y realizar una trazabilidad frente a un reclamo; lo más importante debe plasmar es:
-    ul.lista-ul.mb-5
+    ul.lista-ul.mb-5.ms-md-3
       li 
         i.lista-ul__vineta
         | Granja.
@@ -193,13 +196,13 @@
     p.mb-5 Se invita a ver el video <strong>Requisitos para certificar una granja avícola como biosegura,</strong> el cual se encuentra en el material complementario.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 Manejo de residuos del proceso de clasificación
+      h3 Manejo de residuos del proceso de clasificación
 
-    p.mb-5 Dentro del área de la clasificadora, se manejan residuos sólidos generados por la operación de limpieza y desinfección, como a su vez, de la recepción del huevo hasta el proceso de empaque. Lo anterior, se evidencia en la siguiente tabla 3: 
+    p.mb-5 Dentro del área de la clasificadora, se manejan residuos sólidos generados por la operación de limpieza y desinfección, como a su vez, de la recepción del huevo hasta el proceso de empaque. Lo anterior, se evidencia en la siguiente tabla 2: 
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Tabla 3.
+        h5 Tabla 2.
         span <em>Manejo de residuos</em>
       img.d-md-block(src="@/assets/curso/temas/tema2/img-35.svg" data-aos="fade-left")
 
@@ -210,10 +213,11 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Las bandejas que son traídas con los huevos desde la granja se descartan en el proceso de clasificación.
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_4 2.4 Nombre de bandejas para el almacenamiento del huevo según tamaño
+    Separador
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.4 Nombre de bandejas para el almacenamiento del huevo según tamaño
 
-    p.mb-5 Las bandejas utilizadas para el almacenamiento del huevo tienen su medida, y resistencia correspondiente al tamaño y peso del huevo como se observa en la siguiente figura 13.
+    p.mb-5 Las bandejas utilizadas para el almacenamiento del huevo tienen su medida, y resistencia correspondiente al tamaño y peso del huevo como se observa en la siguiente figura 16.
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
@@ -228,12 +232,13 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Hay que tener en cuenta las características de las bandejas, porque permitirán proteger el huevo desde que se recoge en granja hasta que se comercializa. Esto se maneja en granja con la edad de las aves desde la semana 16 a la 25 de edad en bandeja tipo B, y desde la semana 25 en adelante se maneja bandeja promedio tipo AA. En el proceso de clasificación y comercialización se utiliza las bandejas con base al tipo del huevo clasificado.
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_5 2.5 Empaque y embalaje
+    Separador
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.5 Empaque y embalaje
 
     p Para el sector avícola en Colombia, está regulada la práctica de empaque y embalaje de huevo por la Resolución 3651 del 2014, en su artículo 12 menciona que esta práctica puede ser realizada de manera manual o automática utilizando bandejas y embalajes nuevos para evitar contaminación o traslado de enfermedades aviares desde la granja a otro sector. Estas bandejas deben cumplir con los requerimientos del Ministerio de Salud donde exige que el material utilizado debe ser certificado para el contacto con el alimento. 
-    p La presentación de los diferentes empaque y embalaje da la alternativa al consumidor de adquirir un producto de alta calidad e inocuo que cumple con la conservación de las características organolépticas del huevo y las cantidades que desde el presupuesto sea posible obtener. Estas pueden ser de bandejas plásticas y de cartón y en las siguientes cantidades:
-    ul.lista-ul.mb-5
+    p La presentación de los diferentes empaques y embalajes da la alternativa al consumidor de adquirir un producto de alta calidad e inocuo que cumple con la conservación de las características organolépticas del huevo y las cantidades que desde el presupuesto sea posible obtener. Estas pueden ser de bandejas plásticas y de cartón y en las siguientes cantidades:
+    ul.lista-ul.mb-5.ms-md-3
       li 
         i.lista-ul__vineta
         | Bandeja para 4 huevos.
@@ -255,8 +260,8 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                p Es importante tener presente que, las empresas deben cumplir con los estándares sanitarios estipulados por FENAVI. Por ello, se recomienda revisar los siguientes documentos sobre el plan de gestión ambiental de envases y empaque. Para revisarlos, hacer clic en cada ícono: 
-                p <strong>Cartilla: Plan de gestión ambiental de envases y empaque. Conceptos.</strong>
+                p Es importante tener presente que, las empresas deben cumplir con los estándares sanitarios estipulados por FENAVI. Por ello, se recomienda revisar los siguientes documentos sobre el plan de gestión ambiental de envases y empaques. Para revisarlos, hacer clic en cada ícono: 
+                p <strong>Cartilla: Plan de gestión ambiental de envases y empaques. Conceptos.</strong>
               .col-sm-auto
                 a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Cartilla_plan_gestion_ambiental_envases_empaques_CONCEPTOS_Junio2020.pdf')" target="_blank")
                   span Descargar
@@ -270,7 +275,7 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                p Cartilla: Plan de gestión ambiental de envases y empaque. Desarrollo.
+                p Cartilla: Plan de gestión ambiental de envases y empaques. Desarrollo.
               .col-sm-auto
                 a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Cartilla_plan_gestion_ambiental_envases_empaques_DESARROLLO_Junio2020.pdf')" target="_blank")
                   span Descargar

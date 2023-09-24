@@ -18,56 +18,57 @@
             .row(numero="1" titulo="")
               .col-md-4.mb-3
                 figure
-                  img(src='@/assets/curso/temas/tema1/img-2.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema1/img-2.svg', alt='')
               .col-md-8.mb-4.mb-md-0
                 p.text-small La limpieza y la desinfección son procesos distintos y complementarios, puesto que, antes de aplicar una solución desinfectante, las superficies deben ser limpiadas correctamente con detergentes para permitir que el desinfectante pueda entrar en contacto directo con los microorganismos patógenos específicos, ya que la presencia de materia orgánica reduce significativamente la acción de los desinfectantes.
 
             .row(numero="2" titulo="")
               .col-md-4.mb-3
                 figure
-                  img(src='@/assets/curso/temas/tema1/img-3.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema1/img-3.svg', alt='')
               .col-md-8.mb-4.mb-md-0
                 p.text-small El objetivo de los procesos y prácticas de limpieza es eliminar los diferentes tipos de suciedad en equipos y superficies del establecimiento, ya sea restos de alimentos, grasa, polvo, suciedad, productos de desecho, entre otros. 
 
             .row(numero="3" titulo="")
               .col-md-4.mb-3
                 figure
-                  img(src='@/assets/curso/temas/tema1/img-4.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema1/img-4.svg', alt='')
               .col-md-8.mb-4.mb-md-0
                 p.text-small La desinfección, por su parte consiste en la eliminación de los microorganismos de superficies y equipos hasta un nivel adecuado para garantizar la inocuidad de los alimentos y evitar su alteración. Así pues, el objetivo de la desinfección es eliminar todos los microorganismos patógenos y reducir la presencia de microorganismos no patógenos hasta niveles que no puedan alterar la calidad y vida comercial de los productos. 
 
             .row(numero="4" titulo="")
               .col-md-4.mb-3
                 figure
-                  img(src='@/assets/curso/temas/tema1/img-5.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema1/img-5.svg', alt='')
               .col-md-8.mb-4.mb-md-0
                 p.text-small La desinfección puede realizarse por métodos físicos, mediante temperaturas altas, desecación o irradiación o por métodos químicos, aplicando productos desinfectantes.
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.1 Áreas de la clasificadora, máquinas y equipos
+    
+    Separador
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.1 Áreas de la clasificadora, máquinas y equipos
 
     p Las áreas estipuladas de una unidad de clasificadora de huevo están diseñadas para asegurar el bienestar de los operarios y de la labor que se realiza allí, con el objetivo de mantener las propiedades organolépticas del producto. Para no generar una contaminación cruzada de los procesos se describe a continuación su orden:
-    ul.lista-ul
+    ol.lista-ol.ps-md-4
       li 
-        i.lista-ul__vineta
+        span.text-bold a.
         | Zona de recepción o descargue del producto.
       li 
-        i.lista-ul__vineta
+        span.text-bold b.
         | Bodega de recibo e identificación del producto almacenado. 
       li  
-        i.lista-ul__vineta
+        span.text-bold c.
         | Bodega de bandejas.
       li  
-        i.lista-ul__vineta
+        span.text-bold d.
         | Área de equipo de clasificadora (transportador, ovos copio, zona de desechos, bandas clasificadoras, bandas de empaque).
       li  
-        i.lista-ul__vineta
+        span.text-bold e.
         | Colecta de desechos (huevos rotos, picados) claras y yemas - cáscaras.
       li  
-        i.lista-ul__vineta
+        span.text-bold f.
         | Bodega de almacenamiento huevo clasificado, refrigeraciones claras - yemas y despacho.
       li  
-        i.lista-ul__vineta
+        span.text-bold g.
         | Cargue.
 
     p.mb-5 En la siguiente figura 1 se puede apreciar su distribución junto con una descripción de cada sección: 
@@ -79,7 +80,7 @@
       ImagenInfografica.color-acento-botones.mb-5
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema1/img-6.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img-6.svg', alt='En la figura 1 se aprecia el plano de disposición de un área de clasificación del huevo de gallina')
 
         .tarjeta.color-acento-botones1.p-3(x="32%" y="2.5%" numero="1")
           .h5.mb-2.text-center Zona de recepción o descargue del producto
@@ -107,7 +108,7 @@
 
         .tarjeta.color-acento-botones1.p-3(x="68%" y="91%" numero="7")
           .h5.mb-2.text-center Zona de desechos
-          p Lugar donde se dispone el huevo no viable (roto o picado) separando cascara de la clara y la yema. Posterior a ello se refrigera la yema y clara para enviar material a proceso de liofilización.
+          p Lugar donde se dispone el huevo no viable (roto o picado) separando cáscara de la clara y la yema. Posterior a ello se refrigera la yema y clara para enviar material a proceso de liofilización.
 
         .tarjeta.color-acento-botones1.p-3(x="66.5%" y="9%" numero="8")
           .h5.mb-2.text-center Bandas clasificadoras
@@ -133,29 +134,30 @@
           .col-12.col-md-6.mb-5
             .titulo-sexto.color-primario
               p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Ovoscopio Industrial</i>
-            img.mb-3(src='@/assets/curso/temas/tema2/img-01.png')
+            img.mb-3(src='@/assets/curso/temas/tema2/img-01.png' alt="En la figura 2 se muestra un ovoscopio industrial automático.")
             figcaption Nota. Ovoscopio, modelo: 202A. Capacidad: 10000 huevos/hora. Tomada de ZENYER. (s.f.)
           .col-12.col-md-6
             .titulo-sexto.color-primario
               p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Banda clasificadora manual de huevos </i>
-            img.mb-3(src='@/assets/curso/temas/tema2/img-02.png')
+            img.mb-3(src='@/assets/curso/temas/tema2/img-02.png' alt="En la figura 3 se muestra un banda clasificadora de huevos.")
             figcaption Nota. Banda clasificadora manual moba Type 88 para capacidad de 4500 huevos por hora. JM. Alcantara. Tomada de PROultry. (s.f.)
         .row.mb-5
           .col-12.col-md-6.mb-5
             .titulo-sexto.color-primario
-              p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Máquina seleccionadora y clasificadora de huevos automática</i>
-            img.mb-3(src='@/assets/curso/temas/tema2/img-03-1.jpg')
+              p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Banda clasificatoria automatizada de huevos</i>
+            img.mb-3(src='@/assets/curso/temas/tema2/img-03-1.png' alt="En la figura 4 se muestra una máquina seleccionadora y clasificadora de huevos automática.")
             figcaption Nota. Banda clasificatoria de huevos para capacidad de 3500 a 4500 huevos por hora. Tomada de AgroLibre. (s.f.)
           .col-12.col-md-6
             .titulo-sexto.color-primario
               p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Banda clasificadora manual de huevos</i>
-            img.mb-3(src='@/assets/curso/temas/tema2/img-04.png')
+            img.mb-3(src='@/assets/curso/temas/tema2/img-04.png' alt="En la imagen 5 se muestra una banda manual de clasificación de huevos.")
             figcaption Nota. Banda clasificadora manual moba Type 68 para capacidad de 3000 huevos por hora. JM. Alcantara. Tomada de PROultry. (s.f.)
 
     p.mb-5 Para ampliar la información, se invita a ver el video <strong>Clasificadora de Huevos Yemita,</strong> que se encuentra en el material complementario, en el cual se puede apreciar el funcionamiento de una máquina clasificadora de huevo.
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_2 1.2 Desinfectantes y dosificación
+    Separador
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.2 Desinfectantes y dosificación
 
     p.mb-5 Los desinfectantes son una variedad de sustancias químicas o de origen natural encargadas de eliminar en gran parte microorganismos (virus, bacterias, hongos) de superficie y ambientales que pueden afectar la inocuidad del producto que se está seleccionando. Los desinfectantes deben cumplir con unas propiedades que determinan su efectividad letal y que permitan elegir el principio activo adecuado para su uso. Estos son, ver figura 6: 
 
@@ -163,17 +165,17 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 6.
         span <em>Principales propiedades de los desinfectantes</em>
-      img.d-md-block(src="@/assets/curso/temas/tema1/img-8.svg" data-aos="fade-left")
+      img.d-md-block(src="@/assets/curso/temas/tema1/img-8.svg" data-aos="fade-left" alt="En la figura 6 se muestra las características del desinfectante.")
 
     p.mb-5 En el siguiente documento se conocerán las principales características de los desinfectantes y sustancias activas biocidas del proyecto <em>Food for Life-Spain.</em> 
 
     .row
       .col-xl-6.mx-auto.mb-4
-        a.anexo.mb-4(:href="obtenerLink('/downloads/ANEXO_1_Principales características de los desinfectantes y sustancias activas.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo1_Principales_caracteristicas_de_los_desinfectantes_y_sustancias_activas.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Anexo. principales características de los desinfectantes y sustancias activas biocidas del proyecto Food for Life-Spain.
+            p Anexo. Principales características de los desinfectantes y sustancias activas biocidas del proyecto Food for Life-Spain.
 
     p Como complemento a lo anterior, es importante entender que la dosificación (graduación) de los desinfectantes debe ser precisa para su dilución, y pueda cumplir con el objetivo de eliminar microorganismos y no genere resistencia por no seguir las indicaciones del inserto o etiqueta del producto, esto depende de la concentración de la sustancia que recomienden los fabricantes. 
     p.mb-5 Como regla para utilizar los desinfectantes hay que disponer de las herramientas adecuadas para realizar el trabajo de manera adecuada, ya que de no ser así la efectividad de estos productos se verá limitada. Además, en el peor de los casos, los gérmenes se pueden fortalecer y volverse resistentes a los desinfectantes. Por esta razón, se debe ser cauto y cuidadoso. 
@@ -183,16 +185,17 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-9.png')})`}"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.mb-0 Existen desinfectantes que están diseñados específicamente para luchar contra las bacterias y tienen un efecto limitado contra los virus (viricida limitado) y otros que luchan contra una gran variedad de virus (viricida) y débil para las bacterias; por tanto, hay que conocer los microrganismos a los que se está expuesto en la industria avícola en el momento de la selección del huevo comercial y así elegir el desinfectante ideal para la labor y poder cumplir las reglas de uso. 
+        p.mb-0 Existen desinfectantes que están diseñados específicamente para luchar contra las bacterias y tienen un efecto limitado contra los virus (viricida limitado) y otros que luchan contra una gran variedad de virus (viricida) y débil para las bacterias; por tanto, hay que conocer los microorganismos a los que se está expuesto en la industria avícola en el momento de la selección del huevo comercial y así elegir el desinfectante ideal para la labor y poder cumplir las reglas de uso. 
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_3 1.3 Alistamiento y planeación de labores de la clasificadora
+    Separador
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.3 Alistamiento y planeación de labores de la clasificadora
 
     p Las actividades de limpieza y desinfección a ejecutar en las áreas de la clasificadora deben ser programadas generalmente por semana para ser ejecutadas a diario, realizando una distribución de los operarios a un nivel rotativo que permita conocer los procedimientos de la labor en cada etapa de los espacios físicos como de los equipos de la clasificadora. 
     p Esta labor de limpieza y desinfección diaria se realiza de la siguiente manera:
 
     .col-sm.mb-5.mb-sm-0
-      ol.lista-ol
+      ol.lista-ol.ms-md-3
         li 
           span.text-bold a) 
           | Bodega de almacenamiento de huevo seleccionado.
@@ -220,10 +223,10 @@
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Las herramientas más utilizadas son mangueras para el agua, baldes, escobas, traperos, limpia telarañas, esponjas, recogedores y recipientes para la basura. 
-        p.mb-0 De igual manera, se debe manejar un cronograma fácil de entender, para que ningún área se quede sin el aseo correspondiente. A continuación, se presenta un ejemplo de formato (ver tabla 2) para llevar el cronograma de limpieza y desinfección de las áreas de clasificación: 
+        p.mb-0 De igual manera, se debe manejar un cronograma fácil de entender, para que ningún área se quede sin el aseo correspondiente. A continuación, se presenta un ejemplo de formato (ver tabla 1) para llevar el cronograma de limpieza y desinfección de las áreas de clasificación: 
 
     .col-sm.mb-5.mb-sm-0
-      ol.lista-ol.mb-5
+      ol.lista-ol.mb-5.ms-md-3
         li 
           span.text-bold A. 
           | Inicialmente, se coloca el número de la semana, mes y año correspondiente.
@@ -236,12 +239,13 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Tabla 2.
+        h5 Tabla 1.
         span <em>Cronograma de limpieza y desinfección de áreas de clasificación</em>
       img.d-md-block(src="@/assets/curso/temas/tema1/img-11.svg" data-aos="fade-left")
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_4 1.4 Elementos de seguridad en el trabajo
+    
+    Separador
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.4 Elementos de seguridad en el trabajo
 
     p.mb-5 Para la labor de limpieza y desinfección se debe cumplir con unos requisitos de seguridad en el manejo de los equipos, utensilios e insumos ya que son labores repetitivas a diario que pueden conllevar a una enfermedad o accidente laboral. Dentro de la industria avícola bajo normativa de Ministerio de Protección y Ministerio del Trabajo, adicional de resoluciones ICA y FENAVI, incurren en la protección del trabajador a partir de la conservación del producto inocuo. Por tanto, se deben tener en cuenta tres factores dentro de la clasificadora para determinar los diferentes elementos que conserven la seguridad del empleado como del producto, ver figura 7:
 
@@ -249,7 +253,7 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 7.
         span <em>Medidas de seguridad en el trabajo</em>
-      img.d-md-block(src="@/assets/curso/temas/tema1/img-12.svg" data-aos="fade-left")
+      img.d-md-block(src="@/assets/curso/temas/tema1/img-12.svg" data-aos="fade-left" alt="En la figura 7 se muestran las medidas de seguridad en el trabajo de clasificación.")
 
     p.mb-5 A continuación, se presentan los aspectos necesarios que debe tener el trabajador para realizar labores de limpieza y desinfección en el área de clasificación del huevo.
 
@@ -262,7 +266,7 @@
 
           .col-md-6.px-3
             figure
-              img(src='@/assets/curso/temas/tema1/img-13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-13.png', alt='')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -270,7 +274,7 @@
 
           .col-md-6.px-3
             figure
-              img(src='@/assets/curso/temas/tema1/img-14.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-14.png', alt='')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -278,7 +282,7 @@
 
           .col-md-6.px-3
             figure
-              img(src='@/assets/curso/temas/tema1/img-15.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-15.png', alt='')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -286,7 +290,7 @@
 
           .col-md-6.px-3
             figure
-              img(src='@/assets/curso/temas/tema1/img-16.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-16.png', alt='')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -294,7 +298,7 @@
 
           .col-md-6.px-3
             figure
-              img(src='@/assets/curso/temas/tema1/img-17.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-17.png', alt='')
 
     p.mb-5 El grupo de operarios de la clasificadora deben cumplir con las siguientes prácticas y medidas de protección, ver figura 8:      
     
@@ -318,7 +322,7 @@
                 img(src='@/assets/curso/temas/tema1/img-19.svg', alt='').img125
             .col-lg
               p.my-3.parrafo_1(style="position:relative") <strong>Utilizar la dotación correspondiente al área y en su mayoría de color blanco</strong> 
-              ul.lista-ul.mb-3.parrafo_1
+              ul.lista-ul.mb-3.parrafo_1.ms-md-3
                 li
                   i.lista-ul__vineta
                   | Cofia o gorro
@@ -339,8 +343,7 @@
                   | Guantes de nitrilo de seguridad
                 li  
                   i.lista-ul__vineta
-                  | Gafas industriales
-              p.parrafo_1 Si se requiere para labores de limpieza
+                  | Gafas industriales (si se requiere para labores de limpieza)
           .row
             .col-lg
               p.my-5(style="position:relative") Lavarse las manos con agua y jabón con frecuencia en el proceso, para luego desinfectarlas y minimizar el riesgo de contaminación de la zona de trabajo y del producto.
@@ -371,7 +374,7 @@
             .col-lg
               p.my-5(style="position:relative") En las instalaciones de la clasificadora se debe contar con espacios exclusivos para el consumo de alimentos y bebidas, ya que en área de clasificación no se debe consumir alimento debido a que se puede generar una contaminación cruzada.
 
-    p Para otros aspectos sobre la disposición de elementos de seguridad en la operación de limpieza y desinfección en el área de clasificación del huevo, se invita a ver el enlace <strong>Equipo de protección personal básico para la industria alimentaria,</strong> que se encuentra en el material complementario.
+    p Para otros aspectos sobre la disposición de elementos de seguridad en la operación de limpieza y desinfección en el área de clasificación del huevo, se invita a ver el enlace <strong>Equipos de protección personal básicos para la industria alimentaria,</strong> que se encuentra en el material complementario.
 
     
 
