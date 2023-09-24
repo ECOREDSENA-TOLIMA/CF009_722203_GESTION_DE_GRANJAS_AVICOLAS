@@ -243,11 +243,12 @@ export default {
     {
       referencia:
         'Norma técnica colombiana NTC 1240 Industrial Alimentaria. Huevos de Gallina Frescos para Consumo.',
-      link: 'https://www.huila.gov.co/documentos/1620/huevo/',
+      link:
+        'https://www.huila.gov.co/loader.php?lServicio=Tools2&lTipo=descargas&lFuncion=descargar&idFile=53613',
     },
     {
       referencia:
-        'Proyecto Cleaning and Desinfection Procedures in Food and Beverage Industries. (2015).',
+        'Limpieza y desinfección en la industria alimentaria ¿cuál es la diferencia?. (2018).',
       link:
         'https://higieneambiental.com/higiene-alimentaria/limpieza-y-desinfeccion-en-la-industria-alimentaria-cual-es-la-diferencia',
     },
