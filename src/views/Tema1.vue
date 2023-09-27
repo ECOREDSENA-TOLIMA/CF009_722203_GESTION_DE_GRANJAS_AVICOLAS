@@ -145,8 +145,9 @@
           .col-12.col-md-6.mb-5
             .titulo-sexto.color-primario
               p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Banda clasificatoria automatizada de huevos</i>
-            img.mb-3(src='@/assets/curso/temas/tema2/img-03-1.png' alt="En la figura 4 se muestra una máquina seleccionadora y clasificadora de huevos automática.")
-            figcaption Nota. Banda clasificatoria de huevos para capacidad de 3500 a 4500 huevos por hora. Tomada de AgroLibre. (s.f.)
+            img.mb-3(src='@/assets/curso/temas/tema2/img-03-2.png' alt="En la figura 4 se muestra una máquina seleccionadora y clasificadora de huevos automática.")
+            figcaption Nota. Tomada de Hightop Avicultura.
+            //- Nota. Banda clasificatoria de huevos para capacidad de 3500 a 4500 huevos por hora. Tomada de AgroLibre. (s.f.)
           .col-12.col-md-6
             .titulo-sexto.color-primario
               p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Banda clasificadora manual de huevos</i>
@@ -270,6 +271,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
+            h3 Verificar afecciones en la piel
             p Se debe verificar periódicamente a los operarios de la clasificadora, si presentan afecciones en la piel a causa de la manipulación de desinfectantes, detergentes u otros productos químicos que afecten la salud; revisando especialmente lesiones en las manos, brazos y la cara con el fin de reubicarlos e investigar las causas para evitar contaminación del huevo.
 
           .col-md-6.px-3
@@ -278,6 +280,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
+            h3 Disposición de un botiquín y brigadistas
             p Se debe contar en el área de clasificadora con un botiquín de primeros auxilios, para dar respuesta a una emergencia y un grupo de brigadistas capacitados que respondan a una necesidad de traslado de los lesionados.
 
           .col-md-6.px-3
@@ -286,6 +289,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
+            h3 Notificación de enfermedades
             p El operario de una clasificadora que llegue a trabajar y presente enfermedad gastrointestinal, respiratoria o heridas, tiene la obligación de informar a su jefe inmediato de su condición para evitar que trabaje y haya la posibilidad de contaminar el huevo.
 
           .col-md-6.px-3
@@ -294,6 +298,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
+            h3 Señalización
             p Es necesario el manejo de señalización o avisos, que indique al personal el cumplimiento de las diferentes prácticas de salubridad antes, durante, y después del manejo del producto.
 
           .col-md-6.px-3

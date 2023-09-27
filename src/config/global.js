@@ -63,7 +63,7 @@ export default {
           {
             numero: '2.2',
             titulo: 'Tipos de huevo según su tamaño y peso',
-            hash: 't_1_2',
+            hash: 't_2_2',
           },
           {
             numero: '2.3',
