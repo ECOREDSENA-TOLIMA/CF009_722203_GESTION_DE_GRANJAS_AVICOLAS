@@ -261,11 +261,11 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 p Es importante tener presente que, las empresas deben cumplir con los estándares sanitarios estipulados por FENAVI. Por ello, se recomienda revisar los siguientes documentos sobre el plan de gestión ambiental de envases y empaques. Para revisarlos, hacer clic en cada ícono: 
-                p <strong>Cartilla: Plan de gestión ambiental de envases y empaques. Conceptos.</strong>
+                p <strong>Plan de gestión ambiental de envases y empaques - Conceptos generales</strong>
               .col-sm-auto
-                a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Cartilla_plan_gestion_ambiental_envases_empaques_CONCEPTOS_Junio2020.pdf')" target="_blank")
-                  span Descargar
-                  i.fas.fa-file-download
+                a.boton.color-acento-botones.texto-negro(href="https://fenavi.org/publicaciones-programa-ambiental/cartilla-plan-de-gestion-ambiental-de-envases-y-empaques/" target="_blank")
+                  span Ir al sitio web
+                  i.fas.fa-link
 
     .col-xl-10.mx-auto
       .tarjeta.color-acento-contenido.p-3
@@ -275,11 +275,11 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                p Cartilla: Plan de gestión ambiental de envases y empaques. Desarrollo.
+                p #[b Plan de gestión ambiental de envases y empaques - Desarrollo]
               .col-sm-auto
-                a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Cartilla_plan_gestion_ambiental_envases_empaques_DESARROLLO_Junio2020.pdf')" target="_blank")
-                  span Descargar
-                  i.fas.fa-file-download
+                a.boton.color-acento-botones.texto-negro(href="https://fenavi.org/publicaciones-programa-ambiental/cartilla-plan-de-gestion-ambiental-de-envases-y-empaques-desarrollo/" target="_blank")
+                  span Ir al sitio web
+                  i.fas.fa-link
 
 
 

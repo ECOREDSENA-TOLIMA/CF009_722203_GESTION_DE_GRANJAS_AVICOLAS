@@ -83,7 +83,7 @@
             img(src='@/assets/curso/temas/tema1/img-6.svg', alt='En la figura 1 se aprecia el plano de disposición de un área de clasificación del huevo de gallina')
 
         .tarjeta.color-acento-botones1.p-3(x="32%" y="2.5%" numero="1")
-          .h5.mb-2.text-center Zona de recepción o descargue del producto
+          .h5.mb-2.text-center Descargue
           p Área donde se recibe el huevo recogido del galpón o transportado desde la granja.
 
         .tarjeta.color-acento-botones1.p-3(x="16%" y="2.5%" numero="2")
@@ -92,7 +92,7 @@
 
         .tarjeta.color-acento-botones1.p-3(x="5%" y="18%" numero="3")
           .h5.mb-2.text-center Zona de recepción o descargue del producto
-          p Área donde se recibe el huevo recogido del galpón o transportado desde la granja.
+          p En esta zona se almacenan las bandejas que son utilizadas en el proceso de clasificación.
 
         .tarjeta.color-acento-botones1.p-3(x="25%" y="25%" numero="4")
           .h5.mb-2.text-center Área de equipo de clasificadora
@@ -140,19 +140,19 @@
             .titulo-sexto.color-primario
               p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Banda clasificadora manual de huevos </i>
             img.mb-3(src='@/assets/curso/temas/tema2/img-02.png' alt="En la figura 3 se muestra un banda clasificadora de huevos.")
-            figcaption Nota. Banda clasificadora manual moba Type 88 para capacidad de 4500 huevos por hora. JM. Alcantara. Tomada de PROultry. (s.f.)
+            figcaption Nota. Banda clasificadora manual #[em moba Type] 88 para capacidad de 4500 huevos por hora. JM. Alcantara. Tomada de PROultry. (s.f.)
         .row.mb-5
           .col-12.col-md-6.mb-5
             .titulo-sexto.color-primario
-              p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Banda clasificatoria automatizada de huevos</i>
-            img.mb-3(src='@/assets/curso/temas/tema2/img-03-2.png' alt="En la figura 4 se muestra una máquina seleccionadora y clasificadora de huevos automática.")
+              p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Máquina seleccionadora y clasificadora de huevos automática</i>
+            img(src='@/assets/curso/temas/tema2/img-03-2.png' alt="En la figura 4 se muestra una máquina seleccionadora y clasificadora de huevos automática.")
             figcaption Nota. Tomada de Hightop Avicultura.
             //- Nota. Banda clasificatoria de huevos para capacidad de 3500 a 4500 huevos por hora. Tomada de AgroLibre. (s.f.)
           .col-12.col-md-6
             .titulo-sexto.color-primario
               p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Banda clasificadora manual de huevos</i>
             img.mb-3(src='@/assets/curso/temas/tema2/img-04.png' alt="En la imagen 5 se muestra una banda manual de clasificación de huevos.")
-            figcaption Nota. Banda clasificadora manual moba Type 68 para capacidad de 3000 huevos por hora. JM. Alcantara. Tomada de PROultry. (s.f.)
+            figcaption Nota. Banda clasificadora manual #[em moba Type] 68 para capacidad de 3000 huevos por hora. JM. Alcantara. Tomada de PROultry. (s.f.)
 
     p.mb-5 Para ampliar la información, se invita a ver el video <strong>Clasificadora de Huevos Yemita,</strong> que se encuentra en el material complementario, en el cual se puede apreciar el funcionamiento de una máquina clasificadora de huevo.
 

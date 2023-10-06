@@ -187,6 +187,22 @@ export default {
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=bheJVrL4Njw',
     },
+    {
+      tema: 'Empaque y embalaje',
+      referencia:
+        'FENAVI. <em>Plan de gestión ambiental de envases y empaques - Conceptos generales.</em>',
+      tipo: 'Cartilla',
+      link:
+        'https://fenavi.org/publicaciones-programa-ambiental/cartilla-plan-de-gestion-ambiental-de-envases-y-empaques/',
+    },
+    {
+      tema: 'Empaque y embalaje',
+      referencia:
+        'FENAVI. <em>Plan de gestión ambiental de envases y empaques - Desarrollo.</em>',
+      tipo: 'Cartilla',
+      link:
+        'https://fenavi.org/publicaciones-programa-ambiental/cartilla-plan-de-gestion-ambiental-de-envases-y-empaques-desarrollo/',
+    },
   ],
   glosario: [
     {
