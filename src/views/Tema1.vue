@@ -91,12 +91,12 @@
           p Área donde se almacena el huevo recibido e identificando la granja, galpón, fecha de postura, número de lote de los animales.
 
         .tarjeta.color-acento-botones1.p-3(x="5%" y="18%" numero="3")
-          .h5.mb-2.text-center Zona de recepción o descargue del producto
+          .h5.mb-2.text-center Bodega de almacenamiento de bandejas
           p En esta zona se almacenan las bandejas que son utilizadas en el proceso de clasificación.
 
         .tarjeta.color-acento-botones1.p-3(x="25%" y="25%" numero="4")
           .h5.mb-2.text-center Área de equipo de clasificadora
-          p Es la zona donde se encuentran la máquina encargada de clasificar bajo la inspección de operarios.
+          p Es la zona donde se encuentra la máquina encargada de clasificar bajo la inspección de operarios.
 
         .tarjeta.color-acento-botones1.p-3(x="43%" y="79.5%" numero="5")
           .h5.mb-2.text-center Transportador
@@ -116,7 +116,7 @@
 
         .tarjeta.color-acento-botones1.p-3(x="53%" y="9%" numero="9")
           .h5.mb-2.text-center Banda de empaque
-          p Esta banda es la encargada de llevar el huevo clasificado para el procedimiento de empaque y embalaje. Adicional se marca el huevo o la bandeja con los datos correspondiente de la postura.
+          p Esta banda es la encargada de llevar el huevo clasificado para el procedimiento de empaque y embalaje. Adicional se marca el huevo o la bandeja con los datos correspondientes de la postura.
 
         .tarjeta.color-acento-botones1.p-3(x="85%" y="1%" numero="10")
           .h5.mb-2.text-center Bodega de almacenamiento de huevo clasificado, refrigeración yemas-claras y despacho
